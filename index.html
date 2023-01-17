@@ -198,7 +198,7 @@
           headers: {
         //content-Type': 'application/json' // form is sent as multi-part as default but may be required as json
         },
-          body: new FormData(formElem)
+          body: formData
         });
 
         let result = await response.json();
